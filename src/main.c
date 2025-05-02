@@ -10,6 +10,11 @@ int main(int argc, char *argv[]){
     // Do loop to repeat all options, exit when a correct option is not inputted
     do { 
         printf("Here is the menu - enter a number between 1 and 5\n\n");
+        printf("Option 1: Read File\n");
+        printf("Option 2: Find Distance Between Two Vectors\n");
+        printf("Option 3: Find Closest Neighbours of a Given Sample\n");
+        printf("Option 4: Predict Class of a Given Sample\n");
+        printf("Option 5: Find Accuracy of Predicted Classes for Test Data\n");
         printf("Enter your choice: ");
         scanf("%d", &value);
 
